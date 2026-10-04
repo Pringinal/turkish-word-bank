@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#c8102e">
+  <title>Turkish Grammar Guide</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇹🇷</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="grammar.css">
+</head>
+<body>
+  <nav class="topbar">
+    <div class="topbar-inner">
+      <a class="back-link" href="index.html">← Back to quiz</a>
+      <span class="topbar-title">Turkish Grammar Guide</span>
+    </div>
+  </nav>
+
+  <main class="guide" id="top">
+    <h1>Turkish Grammar Guide</h1>
+    <p class="intro">
+      Turkish builds words like Lego: a root plus a chain of suffixes, each with one job.
+      Learn the handful of rules below and thousands of word forms become predictable.
+      Sections are marked <span class="level beginner">Beginner</span>
+      <span class="level intermediate">Intermediate</span>
+      <span class="level advanced">Advanced</span> so you can pick your level.
+    </p>
+
+    <div class="filters" role="group" aria-label="Filter by level">
+      <button type="button" data-filter="all" class="active">All levels</button>
+      <button type="button" data-filter="beginner">Beginner</button>
+      <button type="button" data-filter="intermediate">Intermediate</button>
+      <button type="button" data-filter="advanced">Advanced</button>
+    </div>
+
+    <nav class="toc" aria-label="Contents">
+      <h2>Contents</h2>
+      <ol id="tocList"></ol>
+    </nav>
+
+    <!-- ============ BEGINNER ============ -->
+
+    <section class="topic" id="alphabet" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Alphabet and pronunciation</h2>
+      <p>Turkish uses 29 Latin letters and is written exactly as it sounds: every letter is always pronounced the same way. There are no silent letters.</p>
+      <p>Most letters sound roughly like English. These are the ones to learn:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Letter</th><th>Sounds like</th><th>Example</th></tr>
+        <tr><td class="tr">c</td><td>j in <em>jam</em></td><td><span class="tr">cevap</span> — answer</td></tr>
+        <tr><td class="tr">ç</td><td>ch in <em>chair</em></td><td><span class="tr">çay</span> — tea</td></tr>
+        <tr><td class="tr">ş</td><td>sh in <em>shop</em></td><td><span class="tr">şimdi</span> — now</td></tr>
+        <tr><td class="tr">ğ</td><td>silent; lengthens the vowel before it</td><td><span class="tr">dağ</span> (daa) — mountain</td></tr>
+        <tr><td class="tr">ı</td><td>undotted i: like the <em>e</em> in <em>open</em>, unrounded</td><td><span class="tr">kız</span> — girl</td></tr>
+        <tr><td class="tr">i</td><td>ee in <em>see</em> (short)</td><td><span class="tr">iki</span> — two</td></tr>
+        <tr><td class="tr">ö</td><td>German ö: say <em>e</em> with rounded lips</td><td><span class="tr">göz</span> — eye</td></tr>
+        <tr><td class="tr">ü</td><td>German ü: say <em>ee</em> with rounded lips</td><td><span class="tr">üç</span> — three</td></tr>
+        <tr><td class="tr">j</td><td>s in <em>measure</em></td><td><span class="tr">garaj</span> — garage</td></tr>
+        <tr><td class="tr">r</td><td>lightly tapped</td><td><span class="tr">bir</span> — one</td></tr>
+      </table></div>
+      <div class="tip"><strong>Watch out:</strong> <span class="tr">ı/I</span> and <span class="tr">i/İ</span> are different letters, and each has its own capital: <span class="tr">ı → I</span>, <span class="tr">i → İ</span>. So <span class="tr">İstanbul</span> starts with a dotted capital.</div>
+      <p>Stress usually falls on the <strong>last syllable</strong>: <span class="tr">ki-TAP</span>, <span class="tr">kitap-LAR</span>. Place names and some suffixes (like the negative <span class="tr">-me</span>) are exceptions: <span class="tr">AN-ka-ra</span>, <span class="tr">GEL-me</span> (don't come).</p>
+    </section>
+
+    <section class="topic" id="harmony" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Vowel harmony</h2>
+      <p>This is the most important rule in Turkish. Suffixes change their vowel to match the <strong>last vowel of the word</strong> they attach to. Vowels come in two groups:</p>
+      <div class="table-wrap"><table>
+        <tr><th></th><th>Unrounded</th><th>Rounded</th></tr>
+        <tr><td><strong>Front</strong></td><td class="tr">e, i</td><td class="tr">ö, ü</td></tr>
+        <tr><td><strong>Back</strong></td><td class="tr">a, ı</td><td class="tr">o, u</td></tr>
+      </table></div>
+
+      <h3>2-way harmony: e / a</h3>
+      <p>Suffixes like the plural <span class="tr">-ler/-lar</span> have two forms. Use <span class="tr">e</span> after a front vowel and <span class="tr">a</span> after a back vowel.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Last vowel</th><th>Suffix vowel</th><th>Example</th></tr>
+        <tr><td class="tr">e, i, ö, ü</td><td class="tr">e</td><td><span class="split">ev<b>ler</b></span> houses, <span class="split">göz<b>ler</b></span> eyes</td></tr>
+        <tr><td class="tr">a, ı, o, u</td><td class="tr">a</td><td><span class="split">kız<b>lar</b></span> girls, <span class="split">okul<b>lar</b></span> schools</td></tr>
+      </table></div>
+
+      <h3>4-way harmony: i / ı / u / ü</h3>
+      <p>Suffixes with a high vowel, like the question particle <span class="tr">mi</span>, have four forms:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Last vowel</th><th>Suffix vowel</th><th>Example</th></tr>
+        <tr><td class="tr">e, i</td><td class="tr">i</td><td><span class="split">ev<b>im</b></span> my house</td></tr>
+        <tr><td class="tr">a, ı</td><td class="tr">ı</td><td><span class="split">kız<b>ım</b></span> my daughter</td></tr>
+        <tr><td class="tr">o, u</td><td class="tr">u</td><td><span class="split">okul<b>um</b></span> my school</td></tr>
+        <tr><td class="tr">ö, ü</td><td class="tr">ü</td><td><span class="split">göz<b>üm</b></span> my eye</td></tr>
+      </table></div>
+      <div class="tip"><strong>Notation:</strong> grammar books write suffixes with capital letters for the changing parts: <span class="tr">-lAr</span> means <span class="tr">-ler/-lar</span>, and <span class="tr">-(I)m</span> means <span class="tr">-im/-ım/-um/-üm</span>. This guide lists the forms instead.</div>
+      <p>This is why the quiz has <span class="tr">misin</span>, <span class="tr">mısın</span>, <span class="tr">musun</span> and <span class="tr">müsün</span>: they're the same word ("are you?") in harmony with different verbs.</p>
+    </section>
+
+    <section class="topic" id="consonants" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Consonant changes</h2>
+      <h3>Hard consonants make d → t (and c → ç)</h3>
+      <p>The consonants <span class="tr">ç, f, h, k, p, s, ş, t</span> are "hard". Turkish students remember them with the phrase <span class="tr">"FıSTıKÇı ŞaHaP"</span>. After them, a suffix starting with <span class="tr">d</span> becomes <span class="tr">t</span>, and one starting with <span class="tr">c</span> becomes <span class="tr">ç</span>:</p>
+      <div class="ex"><span class="split">ev<b>de</b></span> at home → <span class="split">kitap<b>ta</b></span> in the book · <span class="split">gel<b>di</b></span> came → <span class="split">git<b>ti</b></span> went · <span class="split">süt<b>çü</b></span> milkman</div>
+
+      <h3>Softening: p, ç, t, k → b, c, d, ğ</h3>
+      <p>When a vowel-initial suffix is added, a final <span class="tr">p, ç, t, k</span> in most words of more than one syllable softens:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Word</th><th>+ vowel suffix</th></tr>
+        <tr><td class="tr">kitap (book)</td><td><span class="split">kita<b>b</b>ı</span> — the book / his book</td></tr>
+        <tr><td class="tr">ağaç (tree)</td><td><span class="split">ağa<b>c</b>ı</span></td></tr>
+        <tr><td class="tr">çocuk (child)</td><td><span class="split">çocu<b>ğ</b>u</span> — his child (in the quiz!)</td></tr>
+        <tr><td class="tr">renk (colour)</td><td><span class="split">ren<b>g</b>i</span> — after n, k becomes g</td></tr>
+        <tr><td class="tr">git- (go), et- (do)</td><td><span class="split">gi<b>d</b>iyorum</span>, <span class="split">e<b>d</b>erim</span></td></tr>
+      </table></div>
+      <p>Most one-syllable words don't soften (<span class="tr">top → topu</span>, <span class="tr">at → atı</span>), and neither do many loanwords (<span class="tr">saat → saati</span>).</p>
+
+      <h3>Buffer letters: y, n, s</h3>
+      <p>Turkish avoids two vowels side by side. When a vowel suffix meets a word ending in a vowel, a buffer consonant slips in:</p>
+      <ul>
+        <li><span class="tr">y</span> for most suffixes: <span class="split">araba<b>y</b>a</span> to the car, <span class="split">ne<b>y</b>i</span> what (object)</li>
+        <li><span class="tr">s</span> for the "his/her/its" suffix: <span class="split">araba<b>s</b>ı</span> his car</li>
+        <li><span class="tr">n</span> for the genitive and after "his/her/its": <span class="split">araba<b>n</b>ın</span> of the car, <span class="split">evi<b>n</b>de</span> in his house</li>
+      </ul>
+    </section>
+
+    <section class="topic" id="agglutination" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>How words are built</h2>
+      <p>Turkish is <strong>agglutinative</strong>: instead of separate words like "my", "in", "the" or "were", it adds suffixes to the end of a root. The order is fixed:</p>
+      <div class="ex"><span class="tr">root → (derivation) → plural → possessive → case → (-ki) → "to be" / person</span></div>
+      <div class="table-wrap"><table>
+        <tr><th>Word</th><th>Meaning</th></tr>
+        <tr><td class="split">ev</td><td>house</td></tr>
+        <tr><td class="split">ev<b>ler</b></td><td>houses</td></tr>
+        <tr><td class="split">ev<b>ler</b><b>im</b></td><td>my houses</td></tr>
+        <tr><td class="split">ev<b>ler</b><b>im</b><b>de</b></td><td>in my houses</td></tr>
+        <tr><td class="split">ev<b>ler</b><b>im</b><b>de</b><b>ki</b></td><td>the one in my houses</td></tr>
+        <tr><td class="split">ev<b>ler</b><b>im</b><b>de</b><b>ki</b><b>ler</b></td><td>the ones in my houses</td></tr>
+      </table></div>
+      <p>Verbs work the same way: <span class="split">gel<b>me</b><b>yecek</b><b>ler</b></span> = come + not + will + they = "they will not come".</p>
+    </section>
+
+    <section class="topic" id="basics" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Word order, articles and gender</h2>
+      <ul>
+        <li><strong>Verb last.</strong> The basic order is Subject – Object – Verb: <span class="tr">Ben çay içiyorum</span> = "I tea am-drinking".</li>
+        <li><strong>No gender.</strong> <span class="tr">o</span> means he, she <em>and</em> it.</li>
+        <li><strong>No "the".</strong> Definiteness is shown by the object ending (see <a href="#cases">cases</a>). <span class="tr">bir</span> ("one") works as "a/an": <span class="tr">bir kitap</span> = a book.</li>
+        <li><strong>Pronouns are often dropped</strong>, because the verb ending already shows the person: <span class="tr">Geliyorum</span> = I'm coming.</li>
+        <li><strong>Adjectives come before nouns</strong> and never change: <span class="tr">güzel ev, güzel evler</span>.</li>
+        <li><strong>Modifiers come before what they modify</strong>, so English "after the film" becomes <span class="tr">filmden sonra</span>, "the film-from after".</li>
+      </ul>
+    </section>
+
+    <section class="topic" id="plural" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Plural: -ler / -lar</h2>
+      <p>Add <span class="tr">-ler</span> or <span class="tr">-lar</span> following 2-way harmony: <span class="split">kitap<b>lar</b></span> books, <span class="split">şey<b>ler</b></span> things, <span class="split">çocuk<b>lar</b></span> children.</p>
+      <div class="tip"><strong>Remember:</strong> after a number or a word like <span class="tr">çok</span> (many) or <span class="tr">birkaç</span> (a few), the noun stays <strong>singular</strong>: <span class="tr">iki kitap</span> (two books), <span class="tr">çok insan</span> (many people).</div>
+    </section>
+
+    <section class="topic" id="pronouns" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Personal pronouns</h2>
+      <p>Many of the most common words in the quiz are just pronouns with case endings. Here they are all together:</p>
+      <div class="table-wrap"><table>
+        <tr><th></th><th>I</th><th>you</th><th>he/she/it</th><th>we</th><th>you (pl./polite)</th><th>they</th></tr>
+        <tr><td><strong>subject</strong></td><td class="tr">ben</td><td class="tr">sen</td><td class="tr">o</td><td class="tr">biz</td><td class="tr">siz</td><td class="tr">onlar</td></tr>
+        <tr><td><strong>object</strong> (me…)</td><td class="tr">beni</td><td class="tr">seni</td><td class="tr">onu</td><td class="tr">bizi</td><td class="tr">sizi</td><td class="tr">onları</td></tr>
+        <tr><td><strong>to</strong></td><td class="tr">bana</td><td class="tr">sana</td><td class="tr">ona</td><td class="tr">bize</td><td class="tr">size</td><td class="tr">onlara</td></tr>
+        <tr><td><strong>at / on</strong></td><td class="tr">bende</td><td class="tr">sende</td><td class="tr">onda</td><td class="tr">bizde</td><td class="tr">sizde</td><td class="tr">onlarda</td></tr>
+        <tr><td><strong>from</strong></td><td class="tr">benden</td><td class="tr">senden</td><td class="tr">ondan</td><td class="tr">bizden</td><td class="tr">sizden</td><td class="tr">onlardan</td></tr>
+        <tr><td><strong>of</strong> (my…)</td><td class="tr">benim</td><td class="tr">senin</td><td class="tr">onun</td><td class="tr">bizim</td><td class="tr">sizin</td><td class="tr">onların</td></tr>
+        <tr><td><strong>with</strong></td><td class="tr">benimle</td><td class="tr">seninle</td><td class="tr">onunla</td><td class="tr">bizimle</td><td class="tr">sizinle</td><td class="tr">onlarla</td></tr>
+      </table></div>
+      <p>Note the irregular <span class="tr">bana</span> and <span class="tr">sana</span> (not <span class="tr">*bene</span>). <span class="tr">Siz</span> is also the polite "you" for one person, like French <em>vous</em>.</p>
+      <p>Demonstratives work the same way: <span class="tr">bu</span> this, <span class="tr">şu</span> that (nearby, pointing), <span class="tr">o</span> that (far). <span class="tr">bunu, buna, bunda, bundan, bunun</span>…</p>
+    </section>
+
+    <section class="topic" id="tobe" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>"To be", var and yok</h2>
+      <p>Turkish has no separate word for "am/is/are". You add a <strong>personal ending</strong> to the noun or adjective:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Person</th><th>Ending</th><th>öğretmen (teacher)</th><th>mutlu (happy)</th><th>Negative</th></tr>
+        <tr><td>I am</td><td class="tr">-(y)im/ım/um/üm</td><td class="split">öğretmen<b>im</b></td><td class="split">mutlu<b>yum</b></td><td class="tr">değilim</td></tr>
+        <tr><td>you are</td><td class="tr">-sin/sın/sun/sün</td><td class="split">öğretmen<b>sin</b></td><td class="split">mutlu<b>sun</b></td><td class="tr">değilsin</td></tr>
+        <tr><td>he/she is</td><td class="tr">— (-dir)</td><td class="split">öğretmen</td><td class="split">mutlu</td><td class="tr">değil</td></tr>
+        <tr><td>we are</td><td class="tr">-(y)iz/ız/uz/üz</td><td class="split">öğretmen<b>iz</b></td><td class="split">mutlu<b>yuz</b></td><td class="tr">değiliz</td></tr>
+        <tr><td>you are (pl.)</td><td class="tr">-siniz/sınız/sunuz/sünüz</td><td class="split">öğretmen<b>siniz</b></td><td class="split">mutlu<b>sunuz</b></td><td class="tr">değilsiniz</td></tr>
+        <tr><td>they are</td><td class="tr">-(ler)</td><td class="split">öğretmen<b>ler</b></td><td class="split">mutlu<b>lar</b></td><td class="tr">değiller</td></tr>
+      </table></div>
+      <p><span class="tr">-dir/-dır/-dur/-dür</span> adds "is" in a factual or certain tone: <span class="tr">Önemli<b>dir</b></span> "It is important". It's common in writing, and in speech it often means "probably": <span class="tr">Evdedir</span> "He's probably at home".</p>
+      <p>Past "was": add <span class="tr">-(y)dı</span> + person: <span class="split">mutlu<b>ydum</b></span> I was happy, <span class="split">evde<b>ydi</b></span> he was at home, <span class="tr">değildi</span> wasn't.</p>
+
+      <h3>var / yok: there is / there isn't, have / don't have</h3>
+      <div class="ex"><span class="tr">Burada bir sorun var.</span><span class="en">There is a problem here.</span></div>
+      <div class="ex"><span class="tr">Zaman yok.</span><span class="en">There's no time.</span></div>
+      <p>To say "I have", say "my ___ exists": <span class="tr">Param var</span> = I have money (lit. "my-money exists"). <span class="tr">Arabam yok</span> = I don't have a car.</p>
+    </section>
+
+    <section class="topic" id="possessive" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Possessive endings (my, your, his…)</h2>
+      <div class="table-wrap"><table>
+        <tr><th></th><th>after consonant</th><th>ev (house)</th><th>after vowel</th><th>araba (car)</th></tr>
+        <tr><td>my</td><td class="tr">-im/ım/um/üm</td><td class="split">ev<b>im</b></td><td class="tr">-m</td><td class="split">araba<b>m</b></td></tr>
+        <tr><td>your</td><td class="tr">-in/ın/un/ün</td><td class="split">ev<b>in</b></td><td class="tr">-n</td><td class="split">araba<b>n</b></td></tr>
+        <tr><td>his/her/its</td><td class="tr">-i/ı/u/ü</td><td class="split">ev<b>i</b></td><td class="tr">-sı/si/su/sü</td><td class="split">araba<b>sı</b></td></tr>
+        <tr><td>our</td><td class="tr">-imiz…</td><td class="split">ev<b>imiz</b></td><td class="tr">-mız…</td><td class="split">araba<b>mız</b></td></tr>
+        <tr><td>your (pl.)</td><td class="tr">-iniz…</td><td class="split">ev<b>iniz</b></td><td class="tr">-nız…</td><td class="split">araba<b>nız</b></td></tr>
+        <tr><td>their</td><td class="tr">-leri/ları</td><td class="split">ev<b>leri</b></td><td class="tr">-leri/ları</td><td class="split">araba<b>ları</b></td></tr>
+      </table></div>
+      <p>The pronoun is optional, and used for emphasis: <span class="tr">(benim) arkadaşım</span> my friend. Familiar quiz words: <span class="tr">annem</span> my mother, <span class="tr">babam</span> my father, <span class="tr">canım</span> my dear (lit. my soul), <span class="tr">hayatım</span> my life / darling.</p>
+    </section>
+
+    <section class="topic" id="cases" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>The six cases</h2>
+      <p>Where English uses prepositions (to, at, from), Turkish uses case endings. Each one follows vowel harmony and the consonant rules above.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Case</th><th>Ending</th><th>Meaning</th><th>Examples</th></tr>
+        <tr><td>Nominative</td><td>—</td><td>subject, indefinite object</td><td class="split">ev, okul</td></tr>
+        <tr><td>Accusative</td><td class="tr">-(y)i/ı/u/ü</td><td>the (definite object)</td><td><span class="split">ev<b>i</b></span>, <span class="split">araba<b>yı</b></span></td></tr>
+        <tr><td>Dative</td><td class="tr">-(y)e/a</td><td>to, towards</td><td><span class="split">ev<b>e</b></span> home, <span class="split">okul<b>a</b></span> to school</td></tr>
+        <tr><td>Locative</td><td class="tr">-de/da/te/ta</td><td>in, at, on</td><td><span class="split">ev<b>de</b></span> at home, <span class="split">kitap<b>ta</b></span></td></tr>
+        <tr><td>Ablative</td><td class="tr">-den/dan/ten/tan</td><td>from, out of, than</td><td><span class="split">ev<b>den</b></span>, <span class="split">Türkiye'<b>den</b></span></td></tr>
+        <tr><td>Genitive</td><td class="tr">-(n)in/ın/un/ün</td><td>of, 's</td><td><span class="split">ev<b>in</b></span>, <span class="split">araba<b>nın</b></span></td></tr>
+      </table></div>
+      <p>Also common: <strong>with</strong> = <span class="tr">ile</span> or the suffix <span class="tr">-(y)le/la</span>: <span class="split">araba<b>yla</b></span> by car, <span class="split">arkadaşım<b>la</b></span> with my friend.</p>
+
+      <h3>Definite vs. indefinite object</h3>
+      <div class="ex"><span class="tr">Kitap okuyorum.</span><span class="en">I'm reading (a book / books) — no particular book.</span></div>
+      <div class="ex"><span class="tr">Kitab<b>ı</b> okuyorum.</span><span class="en">I'm reading <em>the</em> book — a specific one.</span></div>
+
+      <h3>Proper nouns take an apostrophe</h3>
+      <p><span class="tr">İstanbul'da</span> in Istanbul, <span class="tr">Ali'ye</span> to Ali, <span class="tr">Ayşe'nin</span> Ayşe's.</p>
+
+      <h3>Possession: "the man's car"</h3>
+      <p>Both sides get marked: genitive on the owner, possessive on the thing owned.</p>
+      <div class="ex"><span class="split">Ali'<b>nin</b> araba<b>sı</b></span><span class="en">Ali's car</span></div>
+      <div class="ex"><span class="split">ev<b>in</b> kapı<b>sı</b></span><span class="en">the door of the house</span></div>
+      <p>Without the genitive, it becomes a compound noun: <span class="split">Türk kahve<b>si</b></span> Turkish coffee, <span class="split">doğum gün<b>ü</b></span> birthday.</p>
+    </section>
+
+    <section class="topic" id="questions" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Questions</h2>
+      <h3>Yes/no questions: mi / mı / mu / mü</h3>
+      <p>Put the particle <span class="tr">mi</span> (written separately, but following 4-way harmony) after the word you're asking about:</p>
+      <div class="ex"><span class="tr">Çay <b>mı</b> istiyorsun?</span><span class="en">Is it <em>tea</em> you want?</span></div>
+      <div class="ex"><span class="tr">Çay istiyor <b>musun</b>?</span><span class="en">Do you want tea?</span></div>
+      <div class="ex"><span class="tr">Öğretmen <b>misin</b>?</span><span class="en">Are you a teacher?</span></div>
+      <div class="ex"><span class="tr">Geldin <b>mi</b>?</span><span class="en">Did you come? (past tense: the person ending stays on the verb)</span></div>
+
+      <h3>Question words</h3>
+      <div class="table-wrap"><table>
+        <tr><th>Turkish</th><th>English</th><th>Turkish</th><th>English</th></tr>
+        <tr><td class="tr">ne</td><td>what</td><td class="tr">nerede</td><td>where (at)</td></tr>
+        <tr><td class="tr">kim</td><td>who</td><td class="tr">nereye</td><td>where (to)</td></tr>
+        <tr><td class="tr">neden / niye / niçin</td><td>why</td><td class="tr">nereden</td><td>where from</td></tr>
+        <tr><td class="tr">nasıl</td><td>how</td><td class="tr">ne zaman</td><td>when</td></tr>
+        <tr><td class="tr">hangi</td><td>which</td><td class="tr">kaç / ne kadar</td><td>how many / how much</td></tr>
+      </table></div>
+      <p>Question words take endings too: <span class="split">kim<b>i</b></span> whom, <span class="split">kim<b>e</b></span> to whom, <span class="split">kim<b>in</b></span> whose, <span class="split">ne<b>yi</b></span> what (object), <span class="split">nasıl<b>sın</b></span> how are you.</p>
+      <p>Don't use <span class="tr">mi</span> together with a question word: <span class="tr">Nerede<b>sin</b>?</span> "Where are you?" needs nothing else.</p>
+    </section>
+
+    <section class="topic" id="present" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Verbs and the present tense (-iyor)</h2>
+      <p>The dictionary form ends in <span class="tr">-mek/-mak</span>. Remove it to get the <strong>stem</strong>: <span class="tr">gelmek → gel-</span> (come), <span class="tr">yapmak → yap-</span> (do).</p>
+      <p>The present continuous (<span class="tr">-iyor</span>) covers both "I am doing" and, in speech, "I do". Structure: <strong>stem + iyor + person</strong>.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Person</th><th>Ending</th><th>gelmek</th><th>yapmak</th><th>Negative</th></tr>
+        <tr><td>I</td><td class="tr">-um</td><td class="split">gel<b>iyor</b>um</td><td class="split">yap<b>ıyor</b>um</td><td class="split">gel<b>m</b>iyorum</td></tr>
+        <tr><td>you</td><td class="tr">-sun</td><td class="split">gel<b>iyor</b>sun</td><td class="split">yap<b>ıyor</b>sun</td><td class="split">gel<b>m</b>iyorsun</td></tr>
+        <tr><td>he/she</td><td>—</td><td class="split">gel<b>iyor</b></td><td class="split">yap<b>ıyor</b></td><td class="split">gel<b>m</b>iyor</td></tr>
+        <tr><td>we</td><td class="tr">-uz</td><td class="split">gel<b>iyor</b>uz</td><td class="split">yap<b>ıyor</b>uz</td><td class="split">gel<b>m</b>iyoruz</td></tr>
+        <tr><td>you (pl.)</td><td class="tr">-sunuz</td><td class="split">gel<b>iyor</b>sunuz</td><td class="split">yap<b>ıyor</b>sunuz</td><td class="split">gel<b>m</b>iyorsunuz</td></tr>
+        <tr><td>they</td><td class="tr">-lar</td><td class="split">gel<b>iyor</b>lar</td><td class="split">yap<b>ıyor</b>lar</td><td class="split">gel<b>m</b>iyorlar</td></tr>
+      </table></div>
+      <ul>
+        <li>The first vowel follows 4-way harmony: <span class="tr">gel<b>i</b>yor, yap<b>ı</b>yor, oku<b>yor</b> → okuyor, gör<b>ü</b>yor</span>. The <span class="tr">-yor</span> part never changes, so the endings after it are always <span class="tr">-um, -sun, -uz…</span></li>
+        <li>A stem ending in <span class="tr">e/a</span> loses that vowel: <span class="tr">iste- → ist<b>i</b>yorum</span> (I want), <span class="tr">bekle- → bekl<b>i</b>yor</span>, <span class="tr">anla- → anl<b>ı</b>yorum</span>.</li>
+        <li>Negative: add <span class="tr">-me/-ma</span> before <span class="tr">-iyor</span>. Its vowel then changes: <span class="tr">bil-me-iyor → bil<b>mi</b>yorum</span> (I don't know).</li>
+        <li>Question: <span class="tr">Geliyor <b>musun</b>?</span> Are you coming?</li>
+      </ul>
+    </section>
+
+    <section class="topic" id="past" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Past tense (-di)</h2>
+      <p>For things you know happened: <strong>stem + di/dı/du/dü (or ti/tı/tu/tü after hard consonants) + short person ending</strong>.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Person</th><th>gelmek</th><th>gitmek</th><th>yapmak</th><th>Negative</th></tr>
+        <tr><td>I</td><td class="split">gel<b>di</b>m</td><td class="split">git<b>ti</b>m</td><td class="split">yap<b>tı</b>m</td><td class="split">gel<b>me</b>dim</td></tr>
+        <tr><td>you</td><td class="split">gel<b>di</b>n</td><td class="split">git<b>ti</b>n</td><td class="split">yap<b>tı</b>n</td><td class="split">gel<b>me</b>din</td></tr>
+        <tr><td>he/she</td><td class="split">gel<b>di</b></td><td class="split">git<b>ti</b></td><td class="split">yap<b>tı</b></td><td class="split">gel<b>me</b>di</td></tr>
+        <tr><td>we</td><td class="split">gel<b>di</b>k</td><td class="split">git<b>ti</b>k</td><td class="split">yap<b>tı</b>k</td><td class="split">gel<b>me</b>dik</td></tr>
+        <tr><td>you (pl.)</td><td class="split">gel<b>di</b>niz</td><td class="split">git<b>ti</b>niz</td><td class="split">yap<b>tı</b>nız</td><td class="split">gel<b>me</b>diniz</td></tr>
+        <tr><td>they</td><td class="split">gel<b>di</b>ler</td><td class="split">git<b>ti</b>ler</td><td class="split">yap<b>tı</b>lar</td><td class="split">gel<b>me</b>diler</td></tr>
+      </table></div>
+      <p>Note the short endings <span class="tr">-m, -n, -k, -niz</span>. The same set is used with the conditional <span class="tr">-se</span>. Question: <span class="tr">Geldin mi?</span> Did you come?</p>
+    </section>
+
+    <section class="topic" id="future" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Future tense (-ecek)</h2>
+      <p><strong>stem + (y)ecek/(y)acak + person</strong>. Before a vowel ending, the <span class="tr">k</span> softens to <span class="tr">ğ</span>.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Person</th><th>gelmek</th><th>yapmak</th><th>Negative</th></tr>
+        <tr><td>I</td><td class="split">gel<b>eceğ</b>im</td><td class="split">yap<b>acağ</b>ım</td><td class="split">gel<b>me</b>yeceğim</td></tr>
+        <tr><td>you</td><td class="split">gel<b>ecek</b>sin</td><td class="split">yap<b>acak</b>sın</td><td class="split">gel<b>me</b>yeceksin</td></tr>
+        <tr><td>he/she</td><td class="split">gel<b>ecek</b></td><td class="split">yap<b>acak</b></td><td class="split">gel<b>me</b>yecek</td></tr>
+        <tr><td>we</td><td class="split">gel<b>eceğ</b>iz</td><td class="split">yap<b>acağ</b>ız</td><td class="split">gel<b>me</b>yeceğiz</td></tr>
+        <tr><td>you (pl.)</td><td class="split">gel<b>ecek</b>siniz</td><td class="split">yap<b>acak</b>sınız</td><td class="split">gel<b>me</b>yeceksiniz</td></tr>
+        <tr><td>they</td><td class="split">gel<b>ecek</b>ler</td><td class="split">yap<b>acak</b>lar</td><td class="split">gel<b>me</b>yecekler</td></tr>
+      </table></div>
+      <p>After a vowel, a buffer <span class="tr">y</span> appears: <span class="tr">oku- → oku<b>y</b>acağım</span> (I will read). <span class="tr">Gelecek</span> on its own also means "future" or "next".</p>
+    </section>
+
+    <section class="topic" id="imperative" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Commands and "let's"</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Form</th><th>Ending</th><th>Example</th></tr>
+        <tr><td>you (informal)</td><td>bare stem</td><td><span class="tr">Gel!</span> Come! · <span class="tr">Bak!</span> Look! · <span class="tr">Dur!</span> Stop!</td></tr>
+        <tr><td>you (plural/polite)</td><td class="tr">-(y)in / -(y)iniz</td><td><span class="tr">Gelin</span>, <span class="tr">Bekleyin</span> Wait, <span class="tr">Oturun</span> Sit down</td></tr>
+        <tr><td>let me</td><td class="tr">-(y)eyim</td><td><span class="tr">Bakayım</span> let me see, <span class="tr">Söyleyeyim</span> let me tell</td></tr>
+        <tr><td>let's</td><td class="tr">-(y)elim</td><td><span class="tr">Gidelim</span> let's go, <span class="tr">Yapalım</span> let's do it</td></tr>
+        <tr><td>let him/her</td><td class="tr">-sin</td><td><span class="tr">Gelsin</span> let him come, <span class="tr">Olsun</span> so be it / never mind</td></tr>
+        <tr><td>don't</td><td class="tr">-me/-ma</td><td><span class="tr">Gitme</span> don't go, <span class="tr">Yapma</span> don't (do it)</td></tr>
+      </table></div>
+      <p>For politeness add <span class="tr">lütfen</span> (please): <span class="tr">Lütfen oturun.</span></p>
+    </section>
+
+    <section class="topic" id="numbers" data-level="beginner">
+      <span class="level beginner">Beginner</span>
+      <h2>Numbers</h2>
+      <div class="table-wrap"><table>
+        <tr><th>1–10</th><th></th><th>Tens</th><th></th><th>Big</th><th></th></tr>
+        <tr><td>1</td><td class="tr">bir</td><td>10</td><td class="tr">on</td><td>100</td><td class="tr">yüz</td></tr>
+        <tr><td>2</td><td class="tr">iki</td><td>20</td><td class="tr">yirmi</td><td>1 000</td><td class="tr">bin</td></tr>
+        <tr><td>3</td><td class="tr">üç</td><td>30</td><td class="tr">otuz</td><td>1 000 000</td><td class="tr">milyon</td></tr>
+        <tr><td>4</td><td class="tr">dört</td><td>40</td><td class="tr">kırk</td><td></td><td></td></tr>
+        <tr><td>5</td><td class="tr">beş</td><td>50</td><td class="tr">elli</td><td></td><td></td></tr>
+        <tr><td>6</td><td class="tr">altı</td><td>60</td><td class="tr">altmış</td><td></td><td></td></tr>
+        <tr><td>7</td><td class="tr">yedi</td><td>70</td><td class="tr">yetmiş</td><td></td><td></td></tr>
+        <tr><td>8</td><td class="tr">sekiz</td><td>80</td><td class="tr">seksen</td><td></td><td></td></tr>
+        <tr><td>9</td><td class="tr">dokuz</td><td>90</td><td class="tr">doksan</td><td></td><td></td></tr>
+      </table></div>
+      <p>Bigger numbers are just added up: <span class="tr">yirmi beş</span> 25, <span class="tr">yüz on iki</span> 112, <span class="tr">iki bin yirmi altı</span> 2026. Say <span class="tr">yüz</span> and <span class="tr">bin</span>, not "bir yüz".</p>
+      <p>Ordinals add <span class="tr">-(i)nci</span>: <span class="tr">birinci</span> first, <span class="tr">ikinci</span> second, <span class="tr">üçüncü</span> third, <span class="tr">dördüncü</span> fourth.</p>
+    </section>
+
+    <!-- ============ INTERMEDIATE ============ -->
+
+    <section class="topic" id="aorist" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Simple present / aorist (-r)</h2>
+      <p>The aorist expresses habits, general truths, willingness and polite offers: <span class="tr">Kahve içer misin?</span> Would you drink some coffee?</p>
+      <ul>
+        <li>Stem ends in a vowel → <span class="tr">-r</span>: <span class="tr">oku<b>r</b></span>, <span class="tr">bekle<b>r</b></span>, <span class="tr">söyle<b>r</b></span></li>
+        <li>One-syllable stem → usually <span class="tr">-er/-ar</span>: <span class="tr">yap<b>ar</b></span>, <span class="tr">git → gid<b>er</b></span>, <span class="tr">iç<b>er</b></span></li>
+        <li>Multi-syllable stem → <span class="tr">-ir/ır/ur/ür</span>: <span class="tr">konuş<b>ur</b></span>, <span class="tr">çalış<b>ır</b></span></li>
+        <li><strong>13 one-syllable exceptions</strong> take <span class="tr">-ir</span>: <span class="tr">al, bil, bul, dur, gel, gör, kal, ol, öl, san, var, ver, vur</span> → <span class="tr">gelir, olur, bilir, verir…</span></li>
+      </ul>
+      <p>The negative is irregular:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Person</th><th>Positive</th><th>Negative</th></tr>
+        <tr><td>I</td><td class="tr">yaparım</td><td class="split">yap<b>mam</b></td></tr>
+        <tr><td>you</td><td class="tr">yaparsın</td><td class="split">yap<b>maz</b>sın</td></tr>
+        <tr><td>he/she</td><td class="tr">yapar</td><td class="split">yap<b>maz</b></td></tr>
+        <tr><td>we</td><td class="tr">yaparız</td><td class="split">yap<b>ma</b>yız</td></tr>
+        <tr><td>you (pl.)</td><td class="tr">yaparsınız</td><td class="split">yap<b>maz</b>sınız</td></tr>
+        <tr><td>they</td><td class="tr">yaparlar</td><td class="split">yap<b>maz</b>lar</td></tr>
+      </table></div>
+      <p>Common fixed phrases: <span class="tr">Teşekkür ederim</span> (thank you, lit. "I do thanks"), <span class="tr">Görüşürüz</span> (see you), <span class="tr">Olur</span> (OK, it'll do), <span class="tr">Olmaz</span> (no way), <span class="tr">Bilmem</span> (dunno).</p>
+    </section>
+
+    <section class="topic" id="mis" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Reported past (-miş)</h2>
+      <p><span class="tr">-miş/-mış/-muş/-müş</span> is for things you <strong>didn't witness</strong>: hearsay, inference, or surprise. English often adds "apparently" or "I heard".</p>
+      <div class="ex"><span class="tr">Ali geldi.</span><span class="en">Ali came. (I saw it)</span></div>
+      <div class="ex"><span class="tr">Ali gel<b>miş</b>.</span><span class="en">Apparently Ali came. / Ali has come (I see his shoes by the door).</span></div>
+      <div class="ex"><span class="tr">Çok güzel<b>miş</b>!</span><span class="en">Oh, it's really nice! (discovering it now)</span></div>
+      <p>Endings: <span class="tr">gelmişim, gelmişsin, gelmiş, gelmişiz, gelmişsiniz, gelmişler</span>. Negative: <span class="tr">gelmemiş</span>. Fairy tales start with <span class="tr">Bir varmış, bir yokmuş…</span> "Once there was, once there wasn't…"</p>
+    </section>
+
+    <section class="topic" id="modality" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Can, must, have to</h2>
+      <h3>Ability: -(y)ebil- / -(y)eme-</h3>
+      <div class="table-wrap"><table>
+        <tr><th>Meaning</th><th>Form</th><th>Example</th></tr>
+        <tr><td>can</td><td class="tr">stem + (y)ebil/(y)abil + tense</td><td><span class="split">yap<b>abil</b>irim</span> I can do · <span class="split">gel<b>ebil</b>ir</span> he can / may come</td></tr>
+        <tr><td>can't</td><td class="tr">stem + (y)eme/(y)ama + tense</td><td><span class="split">yap<b>ama</b>m</span> I can't do · <span class="split">inan<b>amı</b>yorum</span> I can't believe it</td></tr>
+        <tr><td>couldn't</td><td class="tr">… + past</td><td><span class="split">gel<b>eme</b>dim</span> I couldn't come</td></tr>
+      </table></div>
+      <h3>Necessity</h3>
+      <ul>
+        <li><span class="tr">-meli/-malı</span> + person = must/should: <span class="split">git<b>meli</b>yim</span> I must go, <span class="split">ol<b>malı</b></span> it must be</li>
+        <li><span class="tr">-mek zorunda</span> = have to: <span class="tr">Gitmek zorundayım</span> I have to go</li>
+        <li><span class="tr">-mem lazım / gerek</span> = I need to: <span class="tr">Gitmem lazım</span> I need to go</li>
+      </ul>
+    </section>
+
+    <section class="topic" id="conditional" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>If, wishes and "would"</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Form</th><th>Meaning</th><th>Example</th></tr>
+        <tr><td class="tr">aorist + se</td><td>real "if"</td><td><span class="tr">Gel<b>irse</b>n, sevinirim.</span> If you come, I'll be glad.</td></tr>
+        <tr><td class="tr">-se + person</td><td>hypothetical / wish</td><td><span class="tr">Keşke gel<b>se</b>n!</span> If only you would come!</td></tr>
+        <tr><td class="tr">-seydi</td><td>unreal past</td><td><span class="tr">Bil<b>seydim</b>, gelirdim.</span> If I had known, I would have come.</td></tr>
+        <tr><td class="tr">-diyse</td><td>if (it) happened</td><td><span class="tr">Gel<b>diyse</b>…</span> If he has come…</td></tr>
+      </table></div>
+      <p><span class="tr">eğer</span> (if) is optional and only emphasises; the suffix does the work. Useful phrases: <span class="tr">istersen</span> if you like, <span class="tr">lütfen</span>, <span class="tr">gerekirse</span> if necessary, <span class="tr">madem</span> since.</p>
+    </section>
+
+    <section class="topic" id="postpositions" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Postpositions</h2>
+      <p>Words like <em>for</em>, <em>like</em> and <em>after</em> come <strong>after</strong> the noun, which sometimes takes a case:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Postposition</th><th>Needs</th><th>Example</th></tr>
+        <tr><td class="tr">için</td><td>— (pronouns: genitive)</td><td><span class="tr">senin için</span> for you, <span class="tr">para için</span> for money</td></tr>
+        <tr><td class="tr">gibi</td><td>— (pronouns: genitive)</td><td><span class="tr">bir çocuk gibi</span> like a child, <span class="tr">benim gibi</span> like me</td></tr>
+        <tr><td class="tr">kadar</td><td>— or dative</td><td><span class="tr">senin kadar</span> as much as you, <span class="tr">akşama kadar</span> until evening</td></tr>
+        <tr><td class="tr">göre</td><td>dative</td><td><span class="tr">bana göre</span> in my opinion</td></tr>
+        <tr><td class="tr">karşı</td><td>dative</td><td><span class="tr">herkese karşı</span> against everyone</td></tr>
+        <tr><td class="tr">önce / sonra</td><td>ablative</td><td><span class="tr">yemekten sonra</span> after the meal</td></tr>
+        <tr><td class="tr">beri</td><td>ablative</td><td><span class="tr">dünden beri</span> since yesterday</td></tr>
+        <tr><td class="tr">dolayı</td><td>ablative</td><td><span class="tr">bundan dolayı</span> because of this</td></tr>
+      </table></div>
+      <h3>Location nouns</h3>
+      <p>Place words are nouns that take possessive + case: <span class="split">masa<b>nın</b> üst<b>ün</b>de</span> on the table, <span class="split">ev<b>in</b> ön<b>ün</b>de</span> in front of the house. Others: <span class="tr">alt</span> under, <span class="tr">iç</span> inside, <span class="tr">yan</span> beside, <span class="tr">arka</span> behind, <span class="tr">ara</span> between. That's where quiz words like <span class="tr">içinde, altında, yanında, arasında</span> come from.</p>
+    </section>
+
+    <section class="topic" id="derivation" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Word formation: making new words</h2>
+      <p>Derivational suffixes turn one word into another. Learning about ten of them multiplies your vocabulary.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Suffix</th><th>Makes</th><th>Examples</th></tr>
+        <tr><td class="tr">-ci/cı/cu/cü<br>(-çi…)</td><td>person who does/sells</td><td><span class="tr">iş → işçi</span> worker, <span class="tr">kitap → kitapçı</span> bookseller, <span class="tr">yalan → yalancı</span> liar</td></tr>
+        <tr><td class="tr">-li/lı/lu/lü</td><td>with, having, from</td><td><span class="tr">akıl → akıllı</span> clever, <span class="tr">tuz → tuzlu</span> salty, <span class="tr">İstanbullu</span> from Istanbul</td></tr>
+        <tr><td class="tr">-siz/sız/suz/süz</td><td>without, -less</td><td><span class="tr">parasız</span> penniless / free, <span class="tr">evsiz</span> homeless, <span class="tr">şekersiz</span> sugar-free</td></tr>
+        <tr><td class="tr">-lik/lık/luk/lük</td><td>abstract noun, thing for</td><td><span class="tr">iyi → iyilik</span> kindness, <span class="tr">göz → gözlük</span> glasses, <span class="tr">saçma → saçmalık</span> nonsense</td></tr>
+        <tr><td class="tr">-ce/ca (-çe…)</td><td>language, manner</td><td><span class="tr">Türkçe</span> Turkish, <span class="tr">yavaşça</span> slowly, <span class="tr">aptalca</span> stupidly</td></tr>
+        <tr><td class="tr">-cik/cık…</td><td>diminutive, affection</td><td><span class="tr">biraz → birazcık</span> a tiny bit, <span class="tr">küçücük</span> teeny</td></tr>
+        <tr><td class="tr">-daş/-taş</td><td>fellow, sharing</td><td><span class="tr">yol → yoldaş</span> comrade, <span class="tr">arka → arkadaş</span> friend ("back-sharer")</td></tr>
+        <tr><td class="tr">-sel/sal</td><td>-al, -ic (adjective)</td><td><span class="tr">bilim → bilimsel</span> scientific, <span class="tr">kişi → kişisel</span> personal</td></tr>
+        <tr><td class="tr">-le/la</td><td>noun → verb</td><td><span class="tr">temiz → temizlemek</span> to clean, <span class="tr">su → sulamak</span> to water</td></tr>
+        <tr><td class="tr">-leş/laş</td><td>become</td><td><span class="tr">iyileşmek</span> to get better, <span class="tr">güzelleşmek</span> to become beautiful</td></tr>
+        <tr><td class="tr">-im/ım…</td><td>verb → noun (result)</td><td><span class="tr">öl → ölüm</span> death, <span class="tr">bil → bilim</span> science</td></tr>
+        <tr><td class="tr">-gi/gı…</td><td>verb → noun</td><td><span class="tr">sev → sevgi</span> love, <span class="tr">bil → bilgi</span> knowledge</td></tr>
+        <tr><td class="tr">-ek/ak</td><td>verb → place/thing</td><td><span class="tr">yat → yatak</span> bed, <span class="tr">dur → durak</span> (bus) stop</td></tr>
+        <tr><td class="tr">-ici/ıcı…</td><td>verb → doer / adjective</td><td><span class="tr">sık → sıkıcı</span> boring, <span class="tr">çek → çekici</span> attractive</td></tr>
+      </table></div>
+      <p>Suffixes stack: <span class="split">göz<b>lük</b><b>çü</b></span> optician, <span class="split">iş<b>siz</b><b>lik</b></span> unemployment, <span class="split">arka<b>daş</b><b>lık</b></span> friendship.</p>
+    </section>
+
+    <section class="topic" id="compound-tenses" data-level="intermediate">
+      <span class="level intermediate">Intermediate</span>
+      <h2>Compound tenses</h2>
+      <p>Add the past <span class="tr">-di</span> (or reported <span class="tr">-miş</span>) on top of another tense to shift it into the past:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Form</th><th>Meaning</th><th>Example</th></tr>
+        <tr><td class="tr">-iyordu</td><td>was doing</td><td><span class="tr">sanıyordum</span> I thought (was thinking), <span class="tr">geliyordum</span> I was coming</td></tr>
+        <tr><td class="tr">-mişti</td><td>had done</td><td><span class="tr">söylemiştim</span> I had told (you)</td></tr>
+        <tr><td class="tr">-ecekti</td><td>was going to</td><td><span class="tr">gelecektim</span> I was going to come</td></tr>
+        <tr><td class="tr">-irdi</td><td>used to / would</td><td><span class="tr">olurdu</span> it would be, <span class="tr">giderdik</span> we used to go</td></tr>
+        <tr><td class="tr">-meliydi</td><td>should have</td><td><span class="tr">gelmeliydin</span> you should have come</td></tr>
+      </table></div>
+    </section>
+
+    <!-- ============ ADVANCED ============ -->
+
+    <section class="topic" id="participles" data-level="advanced">
+      <span class="level advanced">Advanced</span>
+      <h2>Participles: relative clauses</h2>
+      <p>Turkish has no word for "who/which/that". It turns the verb into an adjective that goes <strong>before</strong> the noun.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Suffix</th><th>When to use</th><th>Example</th></tr>
+        <tr><td class="tr">-(y)en/-(y)an</td><td>the noun is the <strong>subject</strong></td><td><span class="split">gel<b>en</b> adam</span> the man who comes/came<br><span class="split">ol<b>an</b></span> the one that is / what happened</td></tr>
+        <tr><td class="tr">-dik/dık/duk/dük + poss.</td><td>the noun is the <strong>object/other</strong>, past or present</td><td><span class="split">oku<b>duğ</b>um kitap</span> the book I read / am reading<br><span class="split">iste<b>diğ</b>in</span> what you want</td></tr>
+        <tr><td class="tr">-(y)ecek/acak + poss.</td><td>object/other, future</td><td><span class="split">oku<b>yacağ</b>ım kitap</span> the book I will read</td></tr>
+      </table></div>
+      <div class="ex"><span class="tr">Dün gördü<b>ğüm</b> film çok güzeldi.</span><span class="en">The film (that) I saw yesterday was very good.</span></div>
+      <div class="ex"><span class="tr">Türkçe bil<b>en</b> biri var mı?</span><span class="en">Is there someone who knows Turkish?</span></div>
+      <p>Many quiz words are participles: <span class="tr">yaptığın</span> what you did, <span class="tr">istediğim</span> what I want, <span class="tr">gelen</span> incoming, <span class="tr">kalan</span> remaining.</p>
+    </section>
+
+    <section class="topic" id="nominal" data-level="advanced">
+      <span class="level advanced">Advanced</span>
+      <h2>Verbal nouns: "that…" clauses</h2>
+      <p>English "that you came" or "to go" becomes a noun built from the verb, which then takes case endings like any noun.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Suffix</th><th>Use</th><th>Example</th></tr>
+        <tr><td class="tr">-mek/-mak</td><td>infinitive, "to do"</td><td><span class="tr">Yüzmek istiyorum.</span> I want to swim.</td></tr>
+        <tr><td class="tr">-me/-ma + poss.</td><td>action, wishes and orders</td><td><span class="tr">Gel<b>men</b>i istiyorum.</span> I want you to come.</td></tr>
+        <tr><td class="tr">-dik + poss.</td><td>facts, "that…"</td><td><span class="tr">Gel<b>diğ</b>ini biliyorum.</span> I know that you came.<br><span class="tr">Haklı ol<b>duğ</b>unu</span> that he is right</td></tr>
+        <tr><td class="tr">-(y)eceğ + poss.</td><td>future facts</td><td><span class="tr">Gel<b>eceğ</b>ini söyledi.</span> He said he would come.</td></tr>
+        <tr><td class="tr">-iş/-ış…</td><td>manner, the act of</td><td><span class="tr">gidiş</span> going/departure, <span class="tr">bakış</span> a look, <span class="tr">giriş</span> entrance</td></tr>
+      </table></div>
+      <p>This is why <span class="tr">olduğunu</span> is one of the most common words in the quiz: <span class="split">ol<b>duğ</b><b>u</b><b>nu</b></span> = be + fact + his + object, "that he/it is".</p>
+    </section>
+
+    <section class="topic" id="converbs" data-level="advanced">
+      <span class="level advanced">Advanced</span>
+      <h2>Converbs: when, while, by, without</h2>
+      <p>These endings link clauses, doing the work of English conjunctions:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Suffix</th><th>Meaning</th><th>Example</th></tr>
+        <tr><td class="tr">-(y)ip</td><td>and (then)</td><td><span class="tr">Eve gel<b>ip</b> uyudum.</span> I came home and slept.</td></tr>
+        <tr><td class="tr">-(y)ince</td><td>when, as soon as</td><td><span class="tr">Eve gel<b>ince</b> ara.</span> Call when you get home.</td></tr>
+        <tr><td class="tr">-(y)ken</td><td>while</td><td><span class="tr">Yürür<b>ken</b> düşündüm.</span> I thought while walking.</td></tr>
+        <tr><td class="tr">-(y)erek</td><td>by …ing</td><td><span class="tr">Koş<b>arak</b> geldi.</span> He came running.</td></tr>
+        <tr><td class="tr">-meden</td><td>without / before</td><td><span class="tr">Söyle<b>meden</b> gitti.</span> He left without saying.</td></tr>
+        <tr><td class="tr">-dikten sonra</td><td>after</td><td><span class="tr">Ye<b>dikten sonra</b></span> after eating</td></tr>
+        <tr><td class="tr">-diği zaman / -diğinde</td><td>when</td><td><span class="tr">Gel<b>diğinde</b></span> when you come</td></tr>
+        <tr><td class="tr">-mek için</td><td>in order to</td><td><span class="tr">Öğren<b>mek için</b></span> in order to learn</td></tr>
+        <tr><td class="tr">-diği için</td><td>because</td><td><span class="tr">Hasta ol<b>duğu için</b></span> because he is ill</td></tr>
+        <tr><td class="tr">-dikçe</td><td>the more…, whenever</td><td><span class="tr">Oku<b>dukça</b> öğrenirsin.</span> The more you read, the more you learn.</td></tr>
+      </table></div>
+    </section>
+
+    <section class="topic" id="voice" data-level="advanced">
+      <span class="level advanced">Advanced</span>
+      <h2>Voice: passive, causative, reflexive, reciprocal</h2>
+      <p>Suffixes right after the stem change who does what. They come before the negative and the tense.</p>
+      <div class="table-wrap"><table>
+        <tr><th>Voice</th><th>Suffix</th><th>Example</th></tr>
+        <tr><td>Passive</td><td class="tr">-il / -in / -n</td><td><span class="tr">yap → yap<b>ıl</b>dı</span> it was done, <span class="tr">oku → oku<b>n</b>ur</span> is read, <span class="tr">bil → bil<b>in</b>en</span> known</td></tr>
+        <tr><td>Causative</td><td class="tr">-dir / -t / -ir / -it</td><td><span class="tr">öl → öl<b>dür</b>mek</span> to kill (make die), <span class="tr">bekle → bekle<b>t</b>mek</span> to keep waiting, <span class="tr">yap → yap<b>tır</b>mak</span> to have something done</td></tr>
+        <tr><td>Reflexive</td><td class="tr">-in / -n</td><td><span class="tr">yıka → yıka<b>n</b>mak</span> to wash oneself, <span class="tr">giy → giy<b>in</b>mek</span> to get dressed</td></tr>
+        <tr><td>Reciprocal</td><td class="tr">-iş / -ş</td><td><span class="tr">gör → gör<b>üş</b>mek</span> to see each other, <span class="tr">tanı → tanı<b>ş</b>mak</span> to meet</td></tr>
+      </table></div>
+      <p>These stack, too: <span class="split">öl<b>dür</b><b>ül</b>dü</span> he was killed (die + cause + passive + past). And <span class="tr">görüşürüz</span> "see you" is literally "we will see each other".</p>
+    </section>
+
+    <section class="topic" id="advanced-features" data-level="advanced">
+      <span class="level advanced">Advanced</span>
+      <h2>Expressive features</h2>
+      <h3>Intensive adjectives</h3>
+      <p>Repeat the first syllable, closed with m, p, r or s, to mean "completely": <span class="tr">beyaz → bembeyaz</span> snow-white, <span class="tr">kara → kapkara</span> pitch-black, <span class="tr">mavi → masmavi</span>, <span class="tr">yeşil → yemyeşil</span>, <span class="tr">temiz → tertemiz</span> spotless.</p>
+      <h3>m-reduplication: "and stuff"</h3>
+      <p>Repeat a word with <span class="tr">m</span> replacing its first sound for a vague "and whatnot": <span class="tr">kitap mitap</span> books and such, <span class="tr">çay may</span> tea and stuff.</p>
+      <h3>Doubled words</h3>
+      <p><span class="tr">yavaş yavaş</span> slowly, gradually · <span class="tr">ara sıra</span> now and then · <span class="tr">güle güle</span> bye (said by the one staying, lit. "laughing laughing").</p>
+      <h3>The -ki suffix</h3>
+      <p><span class="tr">-ki</span> turns a location or time into an adjective or pronoun: <span class="split">masa<b>daki</b> kitap</span> the book on the table, <span class="split">bugün<b>kü</b> gazete</span> today's paper, <span class="split">benim<b>ki</b></span> mine.</p>
+      <h3>The record word</h3>
+      <p>Showing off agglutination:</p>
+      <div class="ex"><span class="split">Avrupa<b>lı</b><b>laş</b><b>tır</b><b>ama</b><b>dık</b><b>lar</b><b>ımız</b><b>dan</b><b>mış</b><b>sınız</b></span><span class="en">"You are apparently one of those whom we could not make European."</span></div>
+      <p>Europe · from · become · cause · cannot · (participle) · plural · our · from · apparently · you are.</p>
+    </section>
+
+    <!-- ============ DECODER ============ -->
+
+    <section class="topic" id="decoder" data-level="all">
+      <span class="level all">All levels</span>
+      <h2>Decoding words from the quiz</h2>
+      <p>Many of the most common words in the quiz are full sentences squeezed into one word. Here's how they break down:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Word</th><th>Parts</th><th>Meaning</th></tr>
+        <tr><td class="tr">istiyorum</td><td class="split">iste + <b>iyor</b> + <b>um</b></td><td>want + now + I → I want</td></tr>
+        <tr><td class="tr">bilmiyorum</td><td class="split">bil + <b>m</b> + <b>iyor</b> + <b>um</b></td><td>know + not + now + I → I don't know</td></tr>
+        <tr><td class="tr">gidiyorum</td><td class="split">git→gid + <b>iyor</b> + <b>um</b></td><td>go (softened) + now + I → I'm going</td></tr>
+        <tr><td class="tr">söyledim</td><td class="split">söyle + <b>di</b> + <b>m</b></td><td>say + past + I → I said</td></tr>
+        <tr><td class="tr">geleceğim</td><td class="split">gel + <b>eceğ</b> + <b>im</b></td><td>come + will + I → I will come</td></tr>
+        <tr><td class="tr">yapamam</td><td class="split">yap + <b>ama</b> + <b>m</b></td><td>do + can't + I → I can't do it</td></tr>
+        <tr><td class="tr">inanamıyorum</td><td class="split">inan + <b>ama</b> + <b>ıyor</b> + <b>um</b></td><td>believe + can't + now + I → I can't believe it</td></tr>
+        <tr><td class="tr">gitmeliyim</td><td class="split">git + <b>meli</b> + <b>y</b> + <b>im</b></td><td>go + must + I → I must go</td></tr>
+        <tr><td class="tr">söylemiştim</td><td class="split">söyle + <b>miş</b> + <b>ti</b> + <b>m</b></td><td>say + had + I → I had told (you)</td></tr>
+        <tr><td class="tr">görüşürüz</td><td class="split">gör + <b>üş</b> + <b>ür</b> + <b>üz</b></td><td>see + each other + aorist + we → see you</td></tr>
+        <tr><td class="tr">teşekkür ederim</td><td class="split">teşekkür + et→ed + <b>er</b> + <b>im</b></td><td>thanks + do + aorist + I → thank you</td></tr>
+        <tr><td class="tr">nasılsın</td><td class="split">nasıl + <b>sın</b></td><td>how + you are → how are you</td></tr>
+        <tr><td class="tr">arkadaşım</td><td class="split">arkadaş + <b>ım</b></td><td>friend + my → my friend</td></tr>
+        <tr><td class="tr">evde</td><td class="split">ev + <b>de</b></td><td>house + at → at home</td></tr>
+        <tr><td class="tr">seninle</td><td class="split">senin + <b>le</b></td><td>your + with → with you</td></tr>
+        <tr><td class="tr">yaptığını</td><td class="split">yap + <b>tığ</b> + <b>ı</b> + <b>nı</b></td><td>do + (participle) + his/your + object → what he/you did</td></tr>
+        <tr><td class="tr">olduğunu</td><td class="split">ol + <b>duğ</b> + <b>u</b> + <b>nu</b></td><td>be + (fact) + his + object → that he/it is</td></tr>
+        <tr><td class="tr">hoşçakal</td><td class="split">hoş + <b>ça</b> + kal</td><td>pleasant + -ly + stay → goodbye (stay well)</td></tr>
+      </table></div>
+      <div class="tip"><strong>Strategy:</strong> read a long word from the right. Strip off the person ending, then the tense, then the negative, and you're left with a root you know.</div>
+    </section>
+
+    <footer class="guide-footer">
+      <a class="back-link" href="index.html">← Back to the quiz</a>
+      <p><a class="to-top" href="#top">↑ Back to top</a></p>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const sections = [...document.querySelectorAll("section.topic")];
+      const toc = document.getElementById("tocList");
+
+      // Build the table of contents from the section headings.
+      for (const s of sections) {
+        const li = document.createElement("li");
+        li.dataset.level = s.dataset.level;
+        const a = document.createElement("a");
+        a.href = "#" + s.id;
+        a.textContent = s.querySelector("h2").textContent;
+        li.appendChild(a);
+        toc.appendChild(li);
+      }
+
+      const KEY = "turkish-grammar-level";
+      const buttons = document.querySelectorAll(".filters button");
+
+      function applyFilter(level) {
+        buttons.forEach((b) => b.classList.toggle("active", b.dataset.filter === level));
+        // Sections tagged "all" (the quiz decoder) show at every level.
+        const show = (el) => level === "all" || el.dataset.level === level || el.dataset.level === "all";
+        sections.forEach((s) => (s.hidden = !show(s)));
+        toc.querySelectorAll("li").forEach((li) => (li.hidden = !show(li)));
+      }
+
+      buttons.forEach((b) => b.addEventListener("click", () => {
+        applyFilter(b.dataset.filter);
+        try { localStorage.setItem(KEY, b.dataset.filter); } catch (_) { /* ignore */ }
+      }));
+
+      let saved = "all";
+      try { saved = localStorage.getItem(KEY) || "all"; } catch (_) { /* ignore */ }
+      applyFilter(saved);
+    })();
+  </script>
+</body>
+</html>

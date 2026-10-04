@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#c8102e">
+  <title>Turkish Word Bank</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇹🇷</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Turkish Word Bank</h1>
+      <a class="guide-link" href="grammar.html">📖 Grammar guide</a>
+      <div class="direction" role="group" aria-label="Translation direction">
+        <button type="button" data-dir="tr-en" class="active">Turkish → English</button>
+        <button type="button" data-dir="en-tr">English → Turkish</button>
+      </div>
+      <label class="range">
+        Words:
+        <select id="range">
+          <option value="100">Top 100 most common</option>
+          <option value="250">Top 250 most common</option>
+          <option value="500">Top 500 most common</option>
+          <option value="1000">Top 1000 most common</option>
+          <option value="0">All words</option>
+        </select>
+      </label>
+    </header>
+
+    <section class="stats" aria-live="polite">
+      <div><span id="score">0</span><small>points</small></div>
+      <div><span id="attempts">0</span><small>answered</small></div>
+      <div><span id="streak">0</span><small>streak</small></div>
+      <div><span id="best">0</span><small>best streak</small></div>
+    </section>
+
+    <section class="card">
+      <p class="prompt-label" id="promptLabel">Translate to English</p>
+      <p class="prompt" id="prompt">…</p>
+
+      <form id="answerForm" autocomplete="off">
+        <input id="answer" type="text" inputmode="text" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="Type the translation" aria-label="Your translation">
+        <div class="tr-keys" id="trKeys" hidden>
+          <button type="button">ç</button><button type="button">ğ</button><button type="button">ı</button><button type="button">İ</button><button type="button">ö</button><button type="button">ş</button><button type="button">ü</button>
+        </div>
+        <div class="actions">
+          <button type="submit" id="checkBtn" class="primary">Check</button>
+          <button type="button" id="skipBtn">Skip</button>
+        </div>
+      </form>
+
+      <div id="feedback" class="feedback" hidden></div>
+      <div class="after" id="after" hidden>
+        <button type="button" id="nextBtn" class="primary">Next word →</button>
+      </div>
+    </section>
+
+    <footer>
+      <span id="progress"></span>
+      <button type="button" id="resetBtn" class="link">Reset score</button>
+    </footer>
+  </main>
+
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
