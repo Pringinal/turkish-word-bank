@@ -1,0 +1,45 @@
+Copyright (c) 2026 Zilvinas S. All rights reserved.
+
+This repository is public so that it can be hosted on GitHub Pages. Being able
+to see the source does NOT grant any rights to use it.
+
+1. Code and content
+
+   Except for the word list described in section 2, all files in this
+   repository — including the application code (HTML, CSS, JavaScript), the
+   grammar guide and its text, and the design — are the exclusive property of
+   the copyright holder.
+
+   You may view this code and use the published website for personal learning.
+   Without prior written permission from the copyright holder, you may NOT:
+
+     - copy, reproduce or redistribute any part of it;
+     - modify it or create derivative works based on it;
+     - host, publish or deploy it, or any modified version of it, elsewhere;
+     - use it, in whole or in part, for any commercial purpose.
+
+   Forking this repository on GitHub, as allowed by GitHub's Terms of Service,
+   does not grant any of the rights above.
+
+2. Word list (words.js)
+
+   The word list in words.js is derived from a Turkish word frequency list
+   created by Hermit Dave (https://invokeit.wordpress.com/frequency-word-lists/),
+   based on subtitles from opensubtitles.org, which is licensed under the
+   Creative Commons Attribution-ShareAlike 3.0 license
+   (https://creativecommons.org/licenses/by-sa/3.0/).
+
+   The translations in words.js were revised, corrected and extended by
+   Zilvinas S. As required by the original license, words.js is distributed
+   under the same Creative Commons Attribution-ShareAlike 3.0 license, not
+   under section 1. Anyone reusing it must credit both Hermit Dave (original
+   list) and Zilvinas S (revised translations).
+
+3. No warranty
+
+   THE SOFTWARE AND CONTENT ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE OR
+   CONTENT.
+
+For permission requests, contact the copyright holder through GitHub.

@@ -21,11 +21,13 @@ Edit `words.js`. Each line is `["turkish", "english"]`; use `/` for alternative 
 ["güzel", "beautiful/pretty/nice"],
 ```
 
-## Publishing on GitHub Pages
+## License
 
-1. Create a new repository on GitHub and push these files to the `main` branch.
-2. In the repository go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, then branch `main` and folder `/ (root)`, and save.
-4. After a minute the site is live at `https://<your-username>.github.io/<repo-name>/`.
+Copyright © 2026 Zilvinas S. **All rights reserved.** The code and grammar guide may not be
+copied, modified, redistributed or hosted elsewhere without written permission.
 
-To try it locally, open `index.html` in a browser.
+The word list (`words.js`) is the exception. It is derived from Hermit Dave's
+[Turkish frequency list](https://invokeit.wordpress.com/frequency-word-lists/)
+and is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+See [LICENSE](LICENSE) for the full terms.

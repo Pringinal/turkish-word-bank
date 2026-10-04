@@ -1,6 +1,9 @@
 // Most common Turkish words, in frequency order (from film subtitles).
 // Source: https://docs.google.com/spreadsheets/d/1aOWAXLyrF74WAh53xDEtZLj62bHCiMHeGRfamXtRrsc
-// Meanings were reviewed and extended by hand; the first one is the main meaning.
+// Based on Hermit Dave's frequency list (https://invokeit.wordpress.com/frequency-word-lists/).
+// This file is licensed under CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/),
+// unlike the rest of the project — see LICENSE.
+// Meanings revised, corrected and extended by Zilvinas S (2026); the first one is the main meaning.
 // Format: [turkish, english]. Separate alternative translations with "/" — any of them counts as correct.
 // e.g. ["güzel", "beautiful/pretty"]
 const WORDS = [
