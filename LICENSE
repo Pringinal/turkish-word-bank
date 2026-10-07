@@ -7,8 +7,8 @@ to see the source does NOT grant any rights to use it.
 
    Except for the word list described in section 2, all files in this
    repository — including the application code (HTML, CSS, JavaScript), the
-   grammar guide and its text, and the design — are the exclusive property of
-   the copyright holder.
+   grammar guide and its text, the sentences (sentences.js) and the design —
+   are the exclusive property of the copyright holder.
 
    You may view this code and use the published website for personal learning.
    Without prior written permission from the copyright holder, you may NOT:
@@ -30,10 +30,11 @@ to see the source does NOT grant any rights to use it.
    (https://creativecommons.org/licenses/by-sa/3.0/).
 
    The translations in words.js were revised, corrected and extended by
-   Zilvinas S. As required by the original license, words.js is distributed
-   under the same Creative Commons Attribution-ShareAlike 3.0 license, not
-   under section 1. Anyone reusing it must credit both Hermit Dave (original
-   list) and Zilvinas S (revised translations).
+   Zilvinas S, who also added 500 everyday words to the list. As required by
+   the original license, the whole of words.js — including the added words —
+   is distributed under the same Creative Commons Attribution-ShareAlike 3.0
+   license, not under section 1. Anyone reusing it must credit both Hermit
+   Dave (original list) and Zilvinas S (revised translations and added words).
 
 3. No warranty
 

@@ -13,20 +13,38 @@
     <header>
       <h1>Turkish Word Bank</h1>
       <a class="guide-link" href="grammar.html">📖 Grammar guide</a>
-      <div class="direction" role="group" aria-label="Translation direction">
-        <button type="button" data-dir="tr-en" class="active">Turkish → English</button>
-        <button type="button" data-dir="en-tr">English → Turkish</button>
+      <div class="mode" role="group" aria-label="What to practise">
+        <button type="button" data-mode="words" class="active">Words</button>
+        <button type="button" data-mode="sentences">Sentences</button>
       </div>
-      <label class="range">
-        Words:
-        <select id="range">
-          <option value="100">Top 100 most common</option>
-          <option value="250">Top 250 most common</option>
-          <option value="500">Top 500 most common</option>
-          <option value="1000">Top 1000 most common</option>
-          <option value="0">All words</option>
-        </select>
-      </label>
+      <div id="wordControls">
+        <div class="direction" role="group" aria-label="Translation direction">
+          <button type="button" data-dir="tr-en" class="active">Turkish → English</button>
+          <button type="button" data-dir="en-tr">English → Turkish</button>
+        </div>
+        <label class="range">
+          Words:
+          <select id="range">
+            <option value="100">Top 100 most common</option>
+            <option value="250">Top 250 most common</option>
+            <option value="500">Top 500 most common</option>
+            <option value="1000">Top 1000 most common</option>
+            <option value="extra">500 everyday words</option>
+            <option value="0">All words</option>
+          </select>
+        </label>
+      </div>
+      <div id="sentenceControls" hidden>
+        <label class="range">
+          Difficulty:
+          <select id="level">
+            <option value="all">Mixed</option>
+            <option value="e">Easy</option>
+            <option value="m">Medium</option>
+            <option value="h">Hard</option>
+          </select>
+        </label>
+      </div>
     </header>
 
     <section class="stats" aria-live="polite">
@@ -41,9 +59,15 @@
       <p class="prompt" id="prompt">…</p>
 
       <form id="answerForm" autocomplete="off">
-        <input id="answer" type="text" inputmode="text" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="Type the translation" aria-label="Your translation">
-        <div class="tr-keys" id="trKeys" hidden>
-          <button type="button">ç</button><button type="button">ğ</button><button type="button">ı</button><button type="button">İ</button><button type="button">ö</button><button type="button">ş</button><button type="button">ü</button>
+        <div id="wordInput">
+          <input id="answer" type="text" inputmode="text" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="go" placeholder="Type the translation" aria-label="Your translation">
+          <div class="tr-keys" id="trKeys" hidden>
+            <button type="button">ç</button><button type="button">ğ</button><button type="button">ı</button><button type="button">İ</button><button type="button">ö</button><button type="button">ş</button><button type="button">ü</button>
+          </div>
+        </div>
+        <div id="sentenceInput" hidden>
+          <div class="tiles answer-line" id="tilesAnswer" aria-label="Your translation" aria-live="polite"></div>
+          <div class="tiles bank" id="tilesBank" aria-label="Word choices"></div>
         </div>
         <div class="actions">
           <button type="submit" id="checkBtn" class="primary">Check</button>
@@ -64,6 +88,7 @@
   </main>
 
   <script src="words.js"></script>
+  <script src="sentences.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -8,9 +8,12 @@ Plain HTML/CSS/JS with no build step, so it runs on GitHub Pages as is.
 - English answers ignore case, punctuation and a leading `to` / `a` / `an` / `the`, and treat
   contractions as their full forms (`I'm` = `im` = `I am`, `don't` = `do not`).
 - Wrong answers show a letter-by-letter comparison with the correct word.
-- Choose to practise the top 100 / 250 / 500 / 1000 most common words, or all of them.
-- Skip shows the answer without counting the word as answered.
+- Choose to practise the top 100 / 250 / 500 / 1000 most common words, 500 everyday words
+  (food, home, family, travel, weather…), or all of them.
+- Skip shows the answer and resets the streak, without counting the word as answered.
 - Score and streaks are saved in the browser.
+- **Sentences mode:** translate Turkish sentences (easy, medium or hard) by tapping English word tiles
+  in the right order. There are always 3–5 extra tiles that don't belong.
 - `grammar.html` is a grammar guide (beginner → advanced), linked from the quiz.
 
 ## Editing the word list
@@ -19,6 +22,17 @@ Edit `words.js`. Each line is `["turkish", "english"]`; use `/` for alternative 
 
 ```js
 ["güzel", "beautiful/pretty/nice"],
+```
+
+The 500 everyday words are at the end of `words.js`, after the frequency-ranked words.
+
+## Editing the sentences
+
+Edit `sentences.js`. Each line is `[level, turkish, english, ...other word orders]`, where level is
+`"e"` (easy), `"m"` (medium) or `"h"` (hard) and the English words become the tiles:
+
+```js
+["e", "Bugün çok mutluyum.", "I am very happy today", "today I am very happy"],
 ```
 
 ## License
